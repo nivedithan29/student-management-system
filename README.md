@@ -42,16 +42,19 @@ You can **add**, **update**, **delete**, and **view** students using a clean web
 - Create a MySQL database named sms
 - Update your application.properties file as below:
 
--spring.datasource.url=jdbc:mysql://localhost:3306/sms
--spring.datasource.username=root
--spring.datasource.password=your_password
--spring.jpa.hibernate.ddl-auto=update
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/sms
+spring.datasource.username=root
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
+```
 
 4️⃣ Run the Application
 Run the main class: StudentManagementSystemApplication.java
 
 Open your browser and go to:
--👉 http://localhost:8080/students
+'''👉 http://localhost:8080/students '''
 
 ---
 
