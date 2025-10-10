@@ -23,37 +23,33 @@ You can **add**, **update**, **delete**, and **view** students using a clean web
 - **MySQL**  
 - **Thymeleaf**  
 - **Eclipse IDE / Spring Tool Suite (STS)**
-⚙️ Setup Instructions
 
-## 1. Clone the Repository
+   ---
 
+## Setup Instructions
+
+1️⃣ Clone the Repository
 git clone https://github.com/nivedithan29/student-management-system.git
 
-
-2. Open the Project
+2️⃣ Open the Project
 
 - Open in Eclipse or Spring Tool Suite (STS)
+- Wait for Maven dependencies to download automatically
 
-- Wait for Maven dependencies to download
-
-3. Configure Database
+3️⃣ Configure the Database
 
 - Create a MySQL database named sms
-
-- Update your application.properties file:
+- Update your application.properties file as below:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/sms
 spring.datasource.username=root
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 
+4️⃣ Run the Application
+Run the main class: StudentManagementSystemApplication.java
 
-4. Run the Application
-
-- Run the main class StudentManagementSystemApplication.java
-
-- Open your browser and go to:
+Open your browser and go to:
 👉 http://localhost:8080/students
-
 
 
