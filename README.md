@@ -28,8 +28,10 @@ You can **add**, **update**, **delete**, and **view** students using a clean web
 
 ## Setup Instructions
 
-1️⃣ Clone the Repository
-git clone https://github.com/nivedithan29/student-management-system.git
+1️⃣ Clone the Repository 
+
+   ```bash
+   git clone https://github.com/nivedithan29/student-management-system.git
 
 2️⃣ Open the Project
 
