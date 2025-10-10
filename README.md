@@ -24,7 +24,7 @@ You can **add**, **update**, **delete**, and **view** students using a clean web
 - Thymeleaf  
 - Eclipse IDE / Spring Tool Suite (STS)
 
-   ---
+---
 
 ## Setup Instructions
 
