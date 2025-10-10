@@ -1,4 +1,4 @@
-#  Student Management System
+##  Student Management System
 
 A simple **Spring Boot web application** for managing student records.  
 You can **add**, **update**, **delete**, and **view** students using a clean web interface.
@@ -16,13 +16,13 @@ You can **add**, **update**, **delete**, and **view** students using a clean web
 ---
 
 ##  Technologies Used
-- **Java**  
-- **Spring Boot**  
-- **Spring MVC**  
-- **Spring Data JPA**  
-- **MySQL**  
-- **Thymeleaf**  
-- **Eclipse IDE / Spring Tool Suite (STS)**
+- Java  
+- Spring Boot  
+- Spring MVC  
+- Spring Data JPA  
+- MySQL
+- Thymeleaf  
+- Eclipse IDE / Spring Tool Suite (STS)
 
    ---
 
@@ -30,7 +30,6 @@ You can **add**, **update**, **delete**, and **view** students using a clean web
 
 1️⃣ Clone the Repository 
 
-   ```bash
    git clone https://github.com/nivedithan29/student-management-system.git
 
 2️⃣ Open the Project
@@ -53,5 +52,10 @@ Run the main class: StudentManagementSystemApplication.java
 
 Open your browser and go to:
 👉 http://localhost:8080/students
+
+---
+
+Created by Niveditha 
+
 
 
