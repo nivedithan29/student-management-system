@@ -24,11 +24,3 @@ You can **add**, **update**, **delete**, and **view** students using a clean web
 - **Thymeleaf**  
 - **Eclipse IDE / Spring Tool Suite (STS)**  
 
----
-
-##  Setup Instructions
-
-1. **Clone the Repository**  
-
-   ```bash
-   git clone https://github.com/nivedithan29/student-management-system.git
