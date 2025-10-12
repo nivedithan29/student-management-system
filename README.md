@@ -58,7 +58,5 @@ Open your browser and go to:
 
 ---
 
-Created by Niveditha 
-
 
 
