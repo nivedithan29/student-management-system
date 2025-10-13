@@ -23,7 +23,8 @@ You can **add**, **update**, **delete**, and **view** students using a clean web
 - Spring MVC  
 - Spring Data JPA  
 - MySQL
-- Thymeleaf  
+- Thymeleaf
+- Maven
 - Eclipse IDE / Spring Tool Suite (STS)
 
 ---
