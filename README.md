@@ -6,6 +6,7 @@ You can **add**, **update**, **delete**, and **view** students using a clean web
 ---
 
 ##  Features
+
 - Add new student information  
 - Update existing student details  
 - Delete student records  
@@ -16,6 +17,7 @@ You can **add**, **update**, **delete**, and **view** students using a clean web
 ---
 
 ##  Technologies Used
+
 - Java  
 - Spring Boot  
 - Spring MVC  
@@ -23,6 +25,45 @@ You can **add**, **update**, **delete**, and **view** students using a clean web
 - MySQL
 - Thymeleaf  
 - Eclipse IDE / Spring Tool Suite (STS)
+
+---
+## Project Structure
+
+student-management-system/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── net/
+│   │   │       └── javaguides/
+│   │   │           └── sms/
+│   │   │               ├── StudentManagementSystemApplication.java   # Main Spring Boot application
+│   │   │               │
+│   │   │               ├── controller/
+│   │   │               │   └── StudentController.java                # Handles web requests and routing
+│   │   │               │
+│   │   │               ├── entity/
+│   │   │               │   └── Student.java                          # Student entity class
+│   │   │               │
+│   │   │               ├── repository/
+│   │   │               │   └── StudentRepository.java                # JPA repository interface
+│   │   │               │
+│   │   │               └── service/
+│   │   │                   ├── StudentService.java                   # Service interface
+│   │   │                   └── StudentServiceImpl.java               # Service implementation class
+│   │   │
+│   │   ├── resources/
+│   │   │   ├── static/                                               # Static resources (CSS, JS, images)
+│   │   │   ├── templates/                                            # Thymeleaf HTML pages
+│   │   │   │   ├── index.html                                        # Homepage – list all students
+│   │   │   │   ├── new_student.html                                  # Add student page
+│   │   │   │   └── update_student.html                               # Update student details page
+│   │   │   ├── application.properties                                # Database configuration
+│   │   │   └── banner.txt                                            # Optional Spring Boot banner
+│   │
+│   └── test/                                                         # Unit tests (if any)
+│
+├── pom.xml                                                           # Maven dependencies
+└── README.md                                                         # Project documentation
 
 ---
 
