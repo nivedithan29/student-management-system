@@ -1,9 +1,7 @@
 package net.javaguides.sms.service.impl;
 
 import java.util.List;
-
 import org.springframework.stereotype.Service;
-
 import net.javaguides.sms.entity.Student;
 import net.javaguides.sms.repository.StudentRepository;
 import net.javaguides.sms.service.StudentService;
@@ -42,5 +40,6 @@ public class StudentServiceImpl implements StudentService{
 	public void deleteStudentById(Long id) {
 		studentRepository.deleteById(id);	
 	}
+
 
 }
